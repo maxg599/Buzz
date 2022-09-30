@@ -7,15 +7,16 @@
 }
     body{
         color:var(--dark-color);
+        background-color: var(--fizz-color);
     }
 
     nav{
-        text: color var(--fizz-color)
+        color: var(--fizz-color);
+        font-family: 'Rubik Dirt' 
     }
    
     
     main{
-        background-color: var(--fizz-color);
         justify-content: end;
     }
 
@@ -97,4 +98,14 @@ a.btn:hover{
 }
 .font{
     font-family: 'Rubik Dirt' !important;
+}
+
+.Fizz{}
+
+.Buzz{
+
+}
+
+.FizzBuzz{
+    font-weight: bold;
 }
