@@ -10,7 +10,7 @@
     }
 
     nav{
-        text: color:var(--fizz-color);
+        text: color:var(--fizz-color)
     }
    
     
@@ -90,4 +90,8 @@ word-wrap: break-word;
 }
 a.btn:hover{
     background: var(--primary-color);
+}
+
+.butt{
+    background:var(--primary-color)
 }
