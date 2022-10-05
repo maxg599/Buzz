@@ -12,6 +12,8 @@ function getValues(){
     }else{
         alert("You Must Enter a Integer")
     }
+     displayData(fbArray);
+}
 
     function FizzBuzz(fizzValue, buzzValue){
         let returnarry = [];
@@ -72,4 +74,3 @@ function getValues(){
             tableBody.appendChild(tableRow);
         }
     }
-}
