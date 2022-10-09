@@ -3,10 +3,10 @@ function getValues(){
     let fizzValue = document.getElementById("fizzValue").value;
     let buzzValue = document.getElementById("buzzValue").value;
 
-    fizzValue= parsInt(fizzValue);
-    buzzValue= parsInt(buzzValue);
+    fizzValue= parseInt(fizzValue);
+    buzzValue= parseInt(buzzValue);
 
-    if (Number.isInteger(fizzValue)  && number.isInteger(buzzValue)) {
+    if (Number.isInteger(fizzValue)  && Number.isInteger(buzzValue)) {
         let fbArray = FizzBuzz (fizzValue, buzzValue);
         displayData(fbArray);
     }else{
