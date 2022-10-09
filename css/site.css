@@ -100,12 +100,16 @@ a.btn:hover{
     font-family: 'Rubik Dirt' !important;
 }
 
-.Fizz{}
+.Fizz{
+    color:navy;
+}
 
 .Buzz{
+    color: darkgreen;
 
 }
 
 .FizzBuzz{
+    color: red;
     font-weight: bold;
 }
